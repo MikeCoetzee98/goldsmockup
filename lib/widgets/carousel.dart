@@ -30,7 +30,7 @@ class _AdSliderState extends State<AdSlider> {
                   return Container(
                     width: MediaQuery.of(context).size.width,
                     margin: EdgeInsets.symmetric(horizontal: 2),
-                    decoration: BoxDecoration(color: Colors.yellow),
+                    decoration: BoxDecoration(),
                     child: Image.asset(image, fit: BoxFit.fill),
                   );
                 },

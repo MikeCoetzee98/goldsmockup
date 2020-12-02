@@ -21,8 +21,9 @@ class GridItemDisplay extends StatelessWidget {
           ),
           GridItem(
             id: 'g4',
-            title: 'Classic Items',
-            image: 'assets/images/gold_classic.PNG',
+            title: 'Shop All',
+            image: 'assets/images/gg_gold.png',
+            
           ),
         ];
 

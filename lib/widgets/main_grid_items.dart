@@ -5,7 +5,7 @@ class MainGridItems extends StatelessWidget {
   final String title;
   final String image;
 
-  MainGridItems(this.id, this.title, this.image); // <- constructor
+  MainGridItems(this.id, this.title, this.image);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,8 @@ class MainGridItems extends StatelessWidget {
       borderRadius: BorderRadius.circular(3),
       child: GridTile(
         child: GestureDetector(
-          onTap: (){          
+          onTap: (){    
+            Navigator.of(context).pushNamed('/products');      
           },
           child: Image.asset(
             image,

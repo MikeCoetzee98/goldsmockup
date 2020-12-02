@@ -12,6 +12,7 @@ class ProductDetailScreen extends StatelessWidget {
     final loadedProduct =
         Provider.of<Products>(context, listen: false).findbyId(productId);
     return Scaffold(
+      extendBodyBehindAppBar: true,
       backgroundColor: Colors.white,
         appBar: AppBar(),
         body: SingleChildScrollView(

@@ -67,6 +67,7 @@ flutter:
     - assets/images/equipment_main.PNG
     - assets/images/shop_text.PNG
     - assets/images/contact_text.PNG
+    - assets/images/contactimage.PNG
     - assets/images/facebookb.png
     - assets/images/instab.png
     - assets/images/twitterb.png
@@ -77,6 +78,7 @@ flutter:
     - assets/images/loginC.PNG
     - assets/images/clear.png
     - assets/images/Arnoldtricep.jpg
+    - assets/images/conquer.jpg
 
     
 
