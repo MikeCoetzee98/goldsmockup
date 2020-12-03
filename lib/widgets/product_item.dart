@@ -46,6 +46,7 @@ class ProductItem extends StatelessWidget {
                   ],
                 ),
                 child: Row(
+                  
                   children: [
                     Expanded(
                       child: RichText(
@@ -54,14 +55,14 @@ class ProductItem extends StatelessWidget {
                             TextSpan(
                                 text: product.title,
                                 
-                                style: TextStyle(fontSize: 7, color: Colors.black),),
+                                style: TextStyle(fontSize: 7, color: Colors.black, fontWeight: FontWeight.bold),),
                           ],
                         ),
                       ),
                     ),
                     Spacer(),
                     Text(
-                      "R" + product.price.toString(), style: TextStyle(fontSize: 9),
+                      "R" + product.price.toString(), style: TextStyle(fontSize: 9, fontWeight: FontWeight.bold),
                     ),
                   ],
                 ),
