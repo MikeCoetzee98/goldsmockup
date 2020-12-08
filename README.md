@@ -1,17 +1,15 @@
 Mockup Application Golds Gym.
 
-Flutter project, Currently in Android development tested on pixel 2 XL Emulator
+Flutter project, Currently in Android development.
 
 TO DO:
 
 - Authentication and Tokens
 
-- Add Map to Contact page with location marker.
-
 - Product Filtering by category
 
-- Search bar Functionality
+- Search bar Functionality.
 
-- Cart and Orders Screens
+- Finish Cart and Orders Screens (U/I only).
 
-- Polish up U/I on Product Detail Screen
+- Polish up U/I.
