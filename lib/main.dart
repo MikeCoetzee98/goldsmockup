@@ -1,9 +1,12 @@
+
 import 'package:GoldsGearApp/screens/contact_screen.dart';
+import 'package:GoldsGearApp/screens/map_screen.dart';
 import 'package:GoldsGearApp/screens/product_detail.dart';
 
 import './screens/golds_home.dart';
 import './screens/login.dart';
 import './screens/products_screen.dart';
+import './screens/cart_screen.dart';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -31,12 +34,14 @@ class MyApp extends StatelessWidget {
           iconTheme: new IconThemeData(color: Colors.black),
           color: Colors.transparent,
           
-        )),
+        ),),
         
         initialRoute: '/',
         routes: {
           '/': (context) => LoginScreen(),
-          '/home': (context) => GoldsHome(),         
+          '/home': (context) => GoldsHome(),  
+          '/map': (context) => MapScreen(),   
+          '/cart': (context) => CartScreen(),     
           
           '/products': (context) => ProductsScreen(),
           '/product-detail': (context) => ProductDetailScreen(),

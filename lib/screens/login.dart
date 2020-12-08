@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import '../auth/auth_form.dart';
+import 'package:keyboard_visibility/keyboard_visibility.dart';
 
 class LoginScreen extends StatefulWidget {
-
+LoginScreen({Key key}) : super(key: key);
 
 
   @override
@@ -11,12 +12,37 @@ class LoginScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<LoginScreen> {
 
+KeyboardVisibilityNotification _keyboardVisibility = new KeyboardVisibilityNotification();
+int _keyboardVisibilitySubId;
+bool _keyboardState;
+
+@protected
+  void initState() {
+    super.initState();
+
+    _keyboardState = _keyboardVisibility.isKeyboardVisible;
+
+    _keyboardVisibilitySubId = _keyboardVisibility.addNewListener(
+      onChange: (bool visible) {
+        setState(() {
+          _keyboardState = visible;
+        });
+      },
+    );
+  }
+    @override
+  void dispose() {
+    _keyboardVisibility.removeListener(_keyboardVisibilitySubId);
+  }
  
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      
+      body: 
+      
+      Container(
         height: double.infinity,
         width: double.infinity,
         decoration: BoxDecoration(
@@ -35,7 +61,8 @@ class _LoginScreenState extends State<LoginScreen> {
                 Expanded(
                   child: Padding(
                     padding: EdgeInsets.only(top: 10),
-                    child: Container(
+                    child: 
+                   _keyboardState ? null : Container(
                       height: 200,
                       padding: EdgeInsets.all(10),
                       width: 400,

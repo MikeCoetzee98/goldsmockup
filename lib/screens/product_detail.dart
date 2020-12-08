@@ -32,9 +32,10 @@ class ProductDetailScreen extends StatelessWidget {
               bottomRight: Radius.circular(25),
             ),
             child: Container(
-              color: Colors.white,
-              height: 300,
+             
+              height: size.height * 0.4,
               width: double.infinity,
+              color: Colors.white,
               child: Image.network(loadedProduct.imageUrl, fit: BoxFit.contain),
             ),
           ),

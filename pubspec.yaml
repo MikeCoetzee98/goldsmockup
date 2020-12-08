@@ -27,6 +27,8 @@ dependencies:
   provider: ^4.3.2+2
   url_launcher: ^5.7.10
   url_launcher_platform_interface: ^1.0.9
+  google_maps_flutter: ^1.0.6
+  keyboard_visibility: ^0.5.6
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -62,23 +64,24 @@ flutter:
     - assets/images/carousel_1.2.PNG
     - assets/images/carousel_1.3.PNG
     - assets/images/nutrition_main.PNG
-    - assets/images/apparel_main.PNG
-    - assets/images/classics_main.jpg
+    
+    
     - assets/images/equipment_main.PNG
-    - assets/images/shop_text.PNG
-    - assets/images/contact_text.PNG
+    
+    
     - assets/images/contactimage.PNG
     - assets/images/facebookb.png
     - assets/images/instab.png
     - assets/images/twitterb.png
-    - assets/images/gold_classic.PNG
+    
     - assets/images/gold_cloth.PNG
     - assets/images/emailimage.png
-    - assets/images/arnold.PNG
-    - assets/images/loginC.PNG
+    
+    
     - assets/images/clear.png
     - assets/images/Arnoldtricep.jpg
     - assets/images/conquer.jpg
+    - assets/images/golds_location.PNG
 
     
 

@@ -13,6 +13,7 @@ class DescriptionContainer extends StatelessWidget {
         Provider.of<Products>(context, listen: false).findbyId(productId);
     
     return Container(
+      
         decoration: BoxDecoration(
           color: Colors.white,
             borderRadius: BorderRadius.only(
@@ -21,6 +22,7 @@ class DescriptionContainer extends StatelessWidget {
         
         padding: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
         child: ListView(
+          padding: EdgeInsets.only(top: 10),
           children: [
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,

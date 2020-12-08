@@ -40,7 +40,7 @@ class GoldsHome extends StatelessWidget {
 //---------------------------------------------------------------------------Golds Gear Image---------------------------------------------------------------------------
             Center(
               child: Container(
-                height: size.height * 0.10,
+                height: size.height * 0.11,
                 padding: EdgeInsets.only(left: 5, right: 5, bottom: 15),
                 width: MediaQuery.of(context).size.width * 0.9,
                 decoration: BoxDecoration(
@@ -52,21 +52,21 @@ class GoldsHome extends StatelessWidget {
 //---------------------------------------------------------------------------Carousel Slider---------------------------------------------------------------------------
             ),
             SizedBox(
-              height: 15,
+              height: 10,
             ),
 
             Center(
               child: AdSlider(),
             ),
             SizedBox(
-              height: 15,
+              height: 10,
             ),
 
 //---------------------------------------------------------------------------Text WIDGET---------------------------------------------------------------------------
             Center(
               child: Container(
-                height: 60,
-                padding: EdgeInsets.all(10),
+                height: 50,
+                
                 width: MediaQuery.of(context).size.width * 1,
                 child: const Text(
                   'SHOP GOLDS GYM!',
@@ -80,11 +80,11 @@ class GoldsHome extends StatelessWidget {
 
             Center(
               child: Container(
-                height: 280,
-                child: GridItemDisplay(),
-              ),
-            ),
-            SizedBox(height: 20),
+                height: MediaQuery.of(context).size.height * 0.4,
+                child: GridItemDisplay())),
+              
+            
+            SizedBox(height: 10),
 
 //------------------------------------------------------ Email card--------------------------------------------------------------------
             Center(
