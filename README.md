@@ -1,6 +1,6 @@
 Mockup Application Golds Gym.
 
-Flutter project, Currently in Android development.
+Flutter project, Currently in Android development. Code in Master Branch.
 
 TO DO:
 
