@@ -73,22 +73,7 @@ class MainDrawer extends StatelessWidget {
             ),
 
             Divider(),
-            //-------------------------Drawer items---------------------------------
-            ListTile(
-              leading: Icon(Icons.format_list_bulleted, color: Colors.black),
-              title: Text(
-                'Order History',
-                style: TextStyle(
-                  fontSize: 14,
-                  fontFamily: 'PatuaOne',
-                ),
-              ),
-              onTap: () {
-                Navigator.pop(context);
-              },
-            ),
-
-            Divider(),
+            
             //-------------------------Drawer items---------------------------------
             ListTile(
               leading: Icon(Icons.email, color: Colors.black),
