@@ -16,3 +16,8 @@ TO DO:
 - Search bar functionality.
 
 - Develop for IOS.
+
+
+To use the map you will need a GoogleMaps Api key in the following places:
+For Android (android->app->src->main->AndroidManifest.xml). 
+For IOS (once completed) (ios->runner->AppDelegate.swift)
